@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 const data = [
     {
         id:1,
-        icon: 'fas fa-biohazard',
+        icon: 'fas fa-ribbon',
         title:' workshops',
         description:'gyaan'
     },
@@ -18,7 +18,7 @@ const data = [
     },
     {
         id:3,
-        icon: 'fas fa-life-ring',
+        icon: 'fas fa-seedling',
         title:' workshops',
         description:'gyaan3'
     }
