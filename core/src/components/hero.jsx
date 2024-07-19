@@ -28,7 +28,7 @@ export default function AppHero() {
       <Carousel fade>
         {heroData.map((hero) => (
           <Carousel.Item key={hero.id}>
-            <img className="d-block w-100" src={hero.image} alt={`slide ${hero.id}`} />
+            <img className="d-block w-[100vw]" src={hero.image} alt={`slide ${hero.id}`} />
             
             <Carousel.Caption>
               <h1>{hero.title}</h1>

@@ -482,8 +482,8 @@ textarea {
   right: 0;
 }
 
-.hero-block .carousel-item img {
-  width: 100%;
+.hero-block img {
+  width: 100vw;
 }
 
 .hero-block .carousel-caption {
