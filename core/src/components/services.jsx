@@ -12,7 +12,7 @@ const data = [
     },
     {
         id:2,
-        icon: 'fas fa-clone',
+        icon: 'fas fa-hands-holding-circle',
         title:' workshops',
         description:'gyaan1'
     },
