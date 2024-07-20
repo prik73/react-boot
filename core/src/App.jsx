@@ -20,6 +20,9 @@ function App() {
         <AppHero />
         <AppAbout />
         <AppServices />
+        <AppWorks />
+
+        
       </main>
     </div>
   );

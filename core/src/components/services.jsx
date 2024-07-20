@@ -21,7 +21,7 @@ const data = [
         icon: 'fas fa-seedling',
         title:' workshops',
         description:'gyaan3'
-    }
+    },
 ]
 
 export default function AppServices() {
