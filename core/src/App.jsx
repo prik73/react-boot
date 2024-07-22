@@ -8,7 +8,8 @@ import AppHero from './components/hero'
 import AppAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/work';
-
+import AppContact from './components/Contact'
+import AppFooter from './components/footer'
 function App() {
   return (
     <Router>
@@ -23,6 +24,9 @@ function App() {
             <Route path="/gallery" element={<AppWorks />} />
           </Routes>
         </main>
+        <footer id='footer'>
+          <AppFooter />
+        </footer>
       </div>
     </Router>
   );
@@ -34,6 +38,7 @@ function Home() {
       <AppHero />
       <AppAbout />
       <AppServices />
+      <AppContact />
     </>
   );
 }
