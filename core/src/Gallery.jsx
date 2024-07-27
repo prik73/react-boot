@@ -12,7 +12,7 @@ import './css/jquery.timepicker.css';
 import './css/flaticon.css';
 import './css/icomoon.css';
 import './css/fancybox.min.css';
-import './css/style.moudulecss';
+import  './css/style.css';
 
 
 // Images
@@ -23,7 +23,7 @@ import img4 from './images/img_4.jpg';
 
 const Gallery = () => {
   return (
-    <div className={styles.siteSection}>
+    <div >
       <div className="container">
         <div className="row">
           <div className="col-md-4">
