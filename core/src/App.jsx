@@ -10,6 +10,9 @@ import AppServices from './components/services';
 import AppWorks from './components/work';
 import AppContact from './components/Contact'
 import AppFooter from './components/footer'
+import Gallery from './Gallery';
+
+
 function App() {
   return (
     <Router>
@@ -21,7 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/gallery" element={<AppWorks />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </main>
         <footer id='footer'>
