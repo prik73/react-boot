@@ -24,7 +24,7 @@ export default function AppFoooter(){
 
     return(
        <Container fluid>
-        <div className='copyright'>
+        <div className='copyright' >
             &copy; 2024 Corporate. All Rights Reserved.
         </div>
         <div className='socials'>
