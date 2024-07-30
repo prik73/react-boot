@@ -4,29 +4,30 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import AppHeader from './components/header';
-import AppHero from './components/hero'
+import AppHero from './components/hero';
 import AppAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/work';
-import AppContact from './components/Contact'
-import AppFooter from './components/footer'
+import AppContact from './components/Contact';
+import AppFooter from './components/footer';
 import Gallery from './Gallery';
-
 
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className='App d-flex flex-column min-vh-100'>
         <header id='header'>
           <AppHeader />
         </header>
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/gallery" element={<Gallery />} />
-          </Routes>
-        </main>
+        <div className='flex-grow-1'>
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              {/* <Route path="/gallery" element={<Gallery />} /> */}
+            </Routes>
+          </main>
+        </div>
         <footer id='footer'>
           <AppFooter />
         </footer>

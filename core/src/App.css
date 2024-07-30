@@ -18,7 +18,7 @@ body {
   color: #333;
   background: #fff;
   font: 16px/1.6 "Muli", sans-serif;
-  min-width: 320px;
+  /* min-width: 320px; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
