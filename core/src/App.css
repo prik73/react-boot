@@ -243,7 +243,6 @@ textarea {
 }
 
 .title-holder {
-  background-color: #1b0fa0;
   text-align: center;
   margin: 90px 0 40px;
 }
@@ -341,7 +340,7 @@ textarea {
 }
 
 .go-top:hover {
-  background: #0f8bffa4;
+  background: #0F8BFF;
 }
 
 .pagination>li.active a {
@@ -508,9 +507,9 @@ textarea {
 
 .services-block .icon {
   display: flex;
+  left: 30px;
   width: 60px;
   height: 60px;
-  left: 30px;
   font-size: 26px;
   color: #0F8BFF;
   margin: 0 0 20px;
