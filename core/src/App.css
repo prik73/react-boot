@@ -243,8 +243,9 @@ textarea {
 }
 
 .title-holder {
+  background-color: #1b0fa0;
   text-align: center;
-  margin: 0 0 40px;
+  margin: 90px 0 40px;
 }
 
 .title-holder h2 {
@@ -316,11 +317,12 @@ textarea {
   -webkit-transition: all 0.3s linear;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 22px;
   background: #0F8BFF;
   border-radius: 3px;
   color: #fff;
   border: 0;
+  cursor: pointer;
 }
 
 .go-top:before {
@@ -339,7 +341,7 @@ textarea {
 }
 
 .go-top:hover {
-  background: #0F8BFF;
+  background: #0f8bffa4;
 }
 
 .pagination>li.active a {
@@ -505,8 +507,10 @@ textarea {
 
 
 .services-block .icon {
+  display: flex;
   width: 60px;
   height: 60px;
+  left: 30px;
   font-size: 26px;
   color: #0F8BFF;
   margin: 0 0 20px;
@@ -550,6 +554,11 @@ textarea {
 .works-block .portfoliolist>div {
   padding: 15px;
   overflow: hidden;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .works-block .portfoliolist>div img {
@@ -557,6 +566,7 @@ textarea {
   top: 0;
   -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  object-fit: cover;
 }
 
 .works-block .portfoliolist>div .label {
@@ -602,20 +612,6 @@ textarea {
 
 .works-block .portfoliolist .label {
   font-size: 100%;
-}
-
-.works-block .pagination {
-  justify-content: center;
-  margin: 25px 0 0;
-}
-
-.works-block .pagination .page-item.active .page-link {
-  background: #f64b4b;
-  border-color: #f64b4b;
-}
-
-.works-block .pagination .page-item .page-link {
-  padding: 8px 15px 10px;
 }
 
 .teams-block div[class*="col"] {
@@ -1068,4 +1064,53 @@ textarea {
     font-size: 26px;
     margin: 0;
   }
+}
+.floating-call-button {
+  position: fixed;
+  bottom: 90px;
+  right: 21px;
+  background-color: #28a745;
+  color: white;
+  border: 0;
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floating-call-button:hover {
+  background-color: #23c947;
+}
+
+.floating-mail-button {
+  position: fixed;
+  bottom: 158px; /* Adjust based on your layout */
+  right: 22px;
+  background-color: #d41010e1; /* Adjust color as needed */
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; /* Adjust font size */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floating-mail-button:hover {
+  background-color: #d4101088;
+}
+
+.floating-mail-button i {
+  font-size: 24px; /* Adjust icon size if needed */
 }
