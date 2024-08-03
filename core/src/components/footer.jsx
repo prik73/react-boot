@@ -12,6 +12,26 @@ export default function AppFoooter(){
             }
         })
     },[])
+    const [showCallBtn, setCallBtn] = useState(false);
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY > 150){
+                setCallBtn(true)
+            }else{
+                setCallBtn(false)
+            }
+        })
+    },[])
+    const [showMailBtn, setMailBtn] = useState(false);
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY > 150){
+                setMailBtn(true)
+            }else{
+                setMailBtn(false)
+            }
+        })
+    },[])
 
 
     function goTop(){
@@ -19,6 +39,12 @@ export default function AppFoooter(){
             top: 0,
             behavior: 'smooth'
         })
+    }
+    function makeCall(){
+        window.location.href = 'tel:+1234567890'; // Replace with your phone number
+    }
+    function sendMail(){
+        window.location.href = 'mailto:abcd@gmail.com'; // Replace with your email address
     }
 
 
@@ -48,6 +74,16 @@ export default function AppFoooter(){
         </div>
         {
             showTopBtn && (<div className='go-top' onClick={goTop}> </div>)
+        }
+        {
+            showCallBtn && (<div className='floating-call-button' onClick={makeCall}>
+                <i className='fas fa-phone'></i>
+                </div>)
+        }
+        {
+            showMailBtn && (<div className='floating-mail-button' onClick={sendMail}>
+                <i className='fas fa-envelope'></i>
+                </div>)
         }
        </Container>
     )
