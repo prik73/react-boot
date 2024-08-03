@@ -447,7 +447,6 @@ a {
       margin-left: -70px; } } */
 
 .flip-container {
-  z-index: 1000;
   margin-bottom: 50px;
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
