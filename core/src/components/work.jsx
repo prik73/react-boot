@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
+import Grid from 'react-grid-carousel'
 // Import your images
 import i1 from '../assets/images/site/one.jpg';
 import i2 from '../assets/images/site/two.jpg';
@@ -26,9 +27,6 @@ const data = [
     { id: 8, link: 'http://www.google.com', image: i8, title: 'eight', subtitle: 'one' },
     { id: 9, link: 'http://www.google.com', image: i9, title: 'nine', subtitle: 'one' }
 ];
-
-// Removed pagination imports and logic
-
 export default function AppWorks() {
     return (
         <div>
@@ -39,10 +37,10 @@ export default function AppWorks() {
                         <div className='subtitle'>hamaara kaaam hee hai hamaara naaam hehe</div>
                     </div>
                     <Row className='portfoliolist'>
-                        <Carousel fade>
+                        <Carousel fade cols={2} rows={1} gap={10} loop>
                             {data.map((works) => (
                                 <Carousel.Item key={works.id}>
-                                    <img src={works.image} alt={`slide ${works.id}`} />
+                                    <img src={works.image} alt={`slide ${works.id}`} width="100%" />
 
                                     <Carousel.Caption>
                                         <p>{works.description}</p>
