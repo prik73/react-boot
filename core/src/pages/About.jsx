@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css';
 // import 'animate.css/animate.min.css';
@@ -7,8 +7,12 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'aos/dist/aos.css'
 // import '..css/style.css';
 import tyson from '../images/bg_3.jpg'
+import Aos from 'aos'
 
 const About = () => {
+    useEffect(()=>{
+        Aos.init({duration: 1000})
+    })
   return (
     <div>
       {/* <section id="hero1" className="d-flex justify-content-center align-items-center">
@@ -87,7 +91,7 @@ const About = () => {
         <img src="assets/img/team/Harman%20arora.jpeg" className="img-fluid" alt="Harman Arora" />
       </div>
       <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
-        <h2>Harman Arora</h4>
+        <h2>Harman Arora</h2>
         <h4><b>COORDINATOR & CO-FOUNDER</b></h4>
         <p className="font-italic">
           She is also a co-founder of TRPWS. She completed her higher studies at JD Institute Of Fashion Technology. She works as a Visual Merchandiser at two companies and has also worked before as a wedding planner. She was one of the key members along with Kuwarjeet Singh when the NGO was established. She is a skilful person and has very good management skills.
