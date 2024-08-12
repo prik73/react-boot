@@ -1198,3 +1198,99 @@ textarea {
     padding: 20px;
   }
 }
+
+/* about-team section styling */
+#about-team-approach,
+#about-team-team {
+  padding: 60px 0;
+}
+
+.about-team .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-team .section-title h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-team .section-title hr {
+  width: 50px;
+  height: 3px;
+  background-color: #007bff; /* Customize as needed */
+  margin: 0 auto 20px auto;
+  border: none;
+}
+
+.about-team .font-italic {
+  font-style: italic;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-team .row.content {
+  margin-top: 30px;
+}
+
+.about-team .row.content img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.about-team .row.content h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-team .row.content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007bff; /* Customize as needed */
+  margin-bottom: 20px;
+}
+
+.about-team .row.content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-team .row.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-team .row.content ul li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.about-team .row.content ul li:before {
+  content: "\f058"; /* FontAwesome check icon */
+  font-family: "Font Awesome 5 Free"; /* Ensure Font Awesome is loaded */
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #007bff; /* Customize as needed */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .about-team .row.content img {
+    margin-bottom: 20px;
+  }
+  .about-team .row.content {
+    margin-top: 20px;
+  }
+}
