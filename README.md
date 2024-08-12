@@ -1,4 +1,4 @@
-# Project Name
+# NGO-react-boot
 
 ## Getting Started
 
