@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
-import Grid from 'react-grid-carousel'
+// import Grid from 'react-grid-carousel'
 // Import your images
 import i1 from '../assets/images/site/one.jpg';
 import i2 from '../assets/images/site/two.jpg';

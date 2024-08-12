@@ -1113,3 +1113,88 @@ textarea {
 .floating-mail-button i {
   font-size: 24px; /* Adjust icon size if needed */
 }
+
+
+/*---------------about--------------- */
+
+/* About Section */
+#about-section {
+  padding: 175px 0;
+  background: #f7f7f7;
+
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+.about-section .video-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section .video-box img {
+  max-width: 100%;
+  border-radius: 7px;
+  height: 300px;
+  display: block;
+}
+
+.about-section .about-content {
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0.8, 0, 0.3);
+}
+
+.about-section .section-title h2 {
+  font-size: 28px;
+  color: #3b566e;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-section .section-title p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.about-section .icon-box {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-section .icon-box .icon {
+  font-size: 36px;
+  color: #3b566e;
+  margin-right: 15px;
+}
+
+.about-section .icon-box .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3b566e;
+  margin-bottom: 5px;
+}
+
+.about-section .icon-box .description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.row.no-gutters {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-section .about-content {
+    padding: 20px;
+  }
+}

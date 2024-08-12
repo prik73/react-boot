@@ -11,6 +11,9 @@ import AppWorks from './components/work';
 import AppContact from './components/Contact';
 import AppFooter from './components/footer';
 import Gallery from './Gallery';
+import About from './pages/About';
+
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/gallery" element={<AppWorks/>} />
+              <Route path="/about-us" element={<About />} />
             </Routes>
           </main>
         </div>
