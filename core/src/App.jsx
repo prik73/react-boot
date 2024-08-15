@@ -6,11 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import AppHeader from './components/header';
 import AppHero from './components/hero';
-import AppAbout from './components/about';
+import HomeAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/work';
 import AppContact from './components/Contact';
 import AppFooter from './components/footer';
+import AppContactUs from './pages/Contactus';
 import Gallery from './Gallery';
 import About from './pages/About';
 import Donate from './pages/Donate';
@@ -30,8 +31,11 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/gallery" element={<AppWorks />} />
               <Route path="/about-us" element={<About />} />
-              <Route path="/contact-us" element={<Contact />} />
+
+              <Route path="/contact-us" element={<AppContactUs/>} />
+
               <Route path="/donate-us" element={<Donate />} />
+
             </Routes>
           </main>
         </div>
@@ -47,7 +51,7 @@ function Home() {
   return (
     <>
       <AppHero />
-      <AppAbout />
+      <HomeAbout />
       <AppServices />
       <AppContact />
     </>

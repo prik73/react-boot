@@ -556,7 +556,7 @@ textarea {
   height: 500px;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 50px;
+  margin-left: 10px;
   margin-right: 20px;
 }
 
@@ -1138,6 +1138,7 @@ textarea {
   border-radius: 7px;
   height: 300px;
   display: block;
+  margin-left: 80px;
 }
 
 .about-section .about-content {
@@ -1236,10 +1237,15 @@ textarea {
 }
 
 .about-team .row.content img {
+  /* display: block;
+  margin: 0 auto; */
+  display: flex;
+  margin: auto;
+  vertical-align: middle;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .about-team .row.content h2 {
