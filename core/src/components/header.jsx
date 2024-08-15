@@ -21,6 +21,7 @@ export default function AppHeader() {
             <Nav.Link href="/about-us">About Us</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+            <Nav.Link href="/donate-us">Donate-us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

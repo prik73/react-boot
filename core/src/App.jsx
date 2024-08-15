@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import './App.css';
+import './index.css'; // If you are using Tailwind, make sure it's imported here
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -12,8 +13,8 @@ import AppContact from './components/Contact';
 import AppFooter from './components/footer';
 import Gallery from './Gallery';
 import About from './pages/About';
-
-
+import Donate from './pages/Donate';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -27,8 +28,10 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/gallery" element={<AppWorks/>} />
+              <Route path="/gallery" element={<AppWorks />} />
               <Route path="/about-us" element={<About />} />
+              <Route path="/contact-us" element={<Contact />} />
+              <Route path="/donate-us" element={<Donate />} />
             </Routes>
           </main>
         </div>
