@@ -15,11 +15,11 @@ export default function AppHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/about-us">About Us</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/contact-us">Contact Us</Nav.Link>
-            <Nav.Link href="/donate-us">Donate-us</Nav.Link>
+            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+            <Nav.Link as={Link} to='/dontae-us'>Donate-us</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
