@@ -32,7 +32,7 @@ function App() {
               <Route path="/gallery" element={<AppWorks />} />
               <Route path="/about-us" element={<About />} />
 
-              <Route path="/contact-us" element={<AppContactUs/>} />
+              <Route path="/contact-us" element={<Contact/>} />
 
               <Route path="/donate-us" element={<Donate />} />
 
