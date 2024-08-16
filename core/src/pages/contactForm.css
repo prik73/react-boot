@@ -1,0 +1,36 @@
+.glassmorphic-bg {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(7, 99, 229, 0.5);
+    border: 1px solid rgba(240, 240, 240, 0.5);
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 1500px;
+  }
+  
+  .glassmorphic-form {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+  }
+  
+  .address-bg {
+    background-image: url('../images/bg_3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  .address-content {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2.5px);
+    border-radius: 15px;
+    padding: 20px;
+    height: 350px;
+    position: relative; /* Allow positioning relative to .address-bg */
+    top: 290px; /* Shift the content 20px lower */
+  }
+  

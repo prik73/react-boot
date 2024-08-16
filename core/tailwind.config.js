@@ -1,13 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
+  content: [
+      './**/*.php',
+      '../Resources/**/*.{html,js}',
+  ],
+  safelist: [
+      'tw-bg-blue-800/75',
+      {
+          pattern: /(bg|text)-(blue)-(800)/,
+          variants: ['hover'],
+      },
+  ],
+  prefix: 'tw-',
   theme: {
-    extend: {},
+      extend: {},
   },
-  variants: {
-    extend: {
-      backdropBlur: ['responsive'],
-    },
+  corePlugins: {
+      preflight: false,
   },
   plugins: [],
-};
+}

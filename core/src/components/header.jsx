@@ -20,7 +20,6 @@ export default function AppHeader() {
             <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
             <Nav.Link as={Link} to='/dontae-us'>Donate-us</Nav.Link>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
