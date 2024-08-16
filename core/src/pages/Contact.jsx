@@ -12,6 +12,8 @@ const Contact = () => {
     message: ''
   });
 
+  const [submitStatus, setSubmitStatus] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -19,16 +21,31 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
+    
+    emailjs.send(
+      'service_3azd8ie', // Replace with your EmailJS service ID
+      'template_i0lpzuk', // Replace with your EmailJS template ID
+      formData,
+      'tt4hZOeExsAZjFGzX' // Replace with your EmailJS user ID
+    )
+    .then((response) => {
+      console.log('Email sent successfully:', response);
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', phone: '', message: '' });
+    })
+    .catch((error) => {
+      console.error('Error sending email:', error);
+      setSubmitStatus('error');
+    });
   };
 
   return (
-    <div className="tw-max-w-screen-lg tw-mx-auto glassmorphic-bg p-4" style={{ marginTop: '165px' }}>
-      <Container>
-        <Row>
-          <Col md={6} className="position-relative p-0">
+    <div className="glassmorphic-bg">
+      <Container fluid>
+        <Row className="justify-content-center">
+          <Col xs={12} md={6} className="mb-4 mb-md-0">
             <div className="address-bg">
-              <div className="address-content p-4">
+              <div className="address-content">
                 <h2 className="mb-4">Reach Us At</h2>
                 <p><strong>Address:</strong></p>
                 <p>123 Main Street</p>
@@ -39,10 +56,10 @@ const Contact = () => {
               </div>
             </div>
           </Col>
-
-          <Col md={6}>
+          
+          <Col xs={12} md={6}>
             <h2 className="text-center mb-4">Contact Us</h2>
-            <Form onSubmit={handleSubmit} className="p-4 shadow rounded glassmorphic-form">
+            <Form onSubmit={handleSubmit} className="shadow rounded glassmorphic-form">
               <Form.Group controlId="formName" className="mb-3">
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control
@@ -96,6 +113,12 @@ const Contact = () => {
                 Send Message
               </Button>
             </Form>
+            {submitStatus === 'success' && (
+              <p className="text-success mt-3">Message sent successfully!</p>
+            )}
+            {submitStatus === 'error' && (
+              <p className="text-danger mt-3">Error sending message. Please try again.</p>
+            )}
           </Col>
         </Row>
       </Container>
