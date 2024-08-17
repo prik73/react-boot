@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import './index.css'; // If you are using Tailwind, make sure it's imported here
+import './index.css'; 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -11,7 +11,6 @@ import AppServices from './components/services';
 import AppWorks from './components/work';
 import AppContact from './components/Contact';
 import AppFooter from './components/footer';
-import AppContactUs from './pages/Contactus';
 import Gallery from './Gallery';
 import About from './pages/About';
 import Donate from './pages/Donate';

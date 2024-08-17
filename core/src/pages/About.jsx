@@ -81,9 +81,10 @@ const About = () => {
           <hr />
 
 
-          <div className="row content">
+           {/* Team Member 1 */}
+           <div className="row content align-items-center mb-5">
             <div className="col-md-5" data-aos="fade-left">
-              <img src={p1img} className="img-fluid" alt="princy" />
+              <img src={p1img} className="img-fluid w-100" alt="princy" />
             </div>
             <div className="col-md-7 pt-4" data-aos="fade-right">
               <h2>Dr. Princy</h2>
@@ -111,9 +112,10 @@ const About = () => {
           <hr />
 
 
-          <div className="row content">
+          {/* Team Member 2 */}
+          <div className="row content align-items-center mb-5">
             <div className="col-md-5 order-1 order-md-2" data-aos="fade-right">
-              <img src={p2img} className="img-fluid" alt="Harman Arora" />
+              <img src={p2img} className="img-fluid w-100" alt="Harman Arora" />
             </div>
             <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
               <h2>Mr. Rajesh Singh Chahar</h2>
@@ -139,9 +141,11 @@ const About = () => {
           <hr />
 
 
-          <div className="row content">
+          
+          {/* Team Member 3 */}
+          <div className="row content align-items-center mb-5">
             <div className="col-md-5" data-aos="fade-left">
-              <img src={p3img} className="img-fluid" alt="Yashvi Parwani" />
+              <img src={p3img} className="img-fluid w-100" alt="Yashvi Parwani" />
             </div>
             <div className="col-md-7 pt-5" data-aos="fade-right">
               <h2>Mr. M.C. Chaturvedi</h2>
@@ -164,13 +168,13 @@ const About = () => {
           <hr />
 
 
-          <div className="row content">
+           {/* Team Member 4 */}
+           <div className="row content align-items-center mb-5">
             <div className="col-md-5 order-1 order-md-2" data-aos="fade-right">
-              <img src={p4img} className="img-fluid" alt="Avleen Kaur" />
+              <img src={p4img} className="img-fluid w-100" alt="Avleen Kaur" />
             </div>
             <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
               <h2>Adv. Arun Singh Chahar</h2>
-              <h4><b></b></h4>
               <p className="font-italic">
                 Arun Singh Chahar, is a senior renowned lawyer practicing in
                 the field of taxation. He has his offices in Gurugram as well as in
@@ -189,9 +193,10 @@ const About = () => {
           <hr />
 
 
-          <div className="row content">
+          {/* Team Member 5 */}
+          <div className="row content align-items-center mb-5">
             <div className="col-md-5" data-aos="fade-left">
-              <img src={p5img} className="img-fluid" alt="princy" />
+              <img src={p5img} className="img-fluid w-100" alt="princy" />
             </div>
             <div className="col-md-7 pt-4" data-aos="fade-right">
               <h2>Prof. Vageshwari Deswal</h2>
