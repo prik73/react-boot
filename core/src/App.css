@@ -573,40 +573,31 @@ textarea {
 
 /* ------------------------------------hero blocks ends -------------------------------*/
 
+.services-block {
+  padding: 20px 0; /* Add some padding around the section */
+}
 
 .services-block .icon {
   display: flex;
-  left: 30px;
+  justify-content: center;
+  align-items: center;
   width: 60px;
   height: 60px;
   font-size: 26px;
   color: #0F8BFF;
-  margin: 0 0 20px;
-  display: inline-block;
-  vertical-align: middle;
+  margin: 0 auto 20px; /* Center the icon and add space below */
   border-radius: 50%;
-  text-align: center;
   transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
 }
 
 .services-block .icon .fas {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 2;
-}
-
-.services-block .row {
-  margin: 0 -15px 50px;
-}
-
-.services-block .row:last-child {
-  margin: 0 -15px;
+  line-height: 1; /* Adjust line-height for better alignment */
 }
 
 .services-block .holder {
+  text-align: center; /* Center align text within the holder */
   transition: all 0.3s linear;
+  margin-bottom: 20px; /* Add space below each service */
 }
 
 .services-block .holder:hover {
@@ -618,6 +609,32 @@ textarea {
   color: #fff;
   font-size: 18px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .services-block .row {
+    margin: 0; /* Remove extra margins on smaller screens */
+  }
+
+  .services-block .holder {
+    margin-bottom: 30px; /* Increase spacing between services */
+  }
+}
+
+@media (max-width: 576px) {
+  .services-block .icon {
+    width: 50px; /* Reduce icon size */
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .services-block .holder {
+    margin-bottom: 25px; /* Adjust spacing between services */
+  }
+}
+
+
+/* ----------servive------------------- */
 
 .works-block .portfoliolist>div {
   padding: 15px;
