@@ -12,6 +12,7 @@ html {
   max-height: 1000000px;
   margin: 0;
   padding: 0;
+ 
 }
 
 body {
@@ -23,6 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   overflow-x: hidden;
+  
 
 }
 .navbar-logo {
@@ -393,6 +395,7 @@ textarea {
   background: white;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
+  max-width: 100%;
 }
 
 #header .navbar {
@@ -1240,6 +1243,7 @@ textarea {
 /*---------------about--------------- */
 
 /* About Section */
+/* About Section */
 #about-section {
   padding: 175px 0;
   background: #f7f7f7;
@@ -1366,7 +1370,7 @@ textarea {
   vertical-align: middle;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
+  max-width: 75%;
   height: 350px;
 }
 

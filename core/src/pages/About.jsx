@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css';
-// import 'animate.css/animate.min.css';
-// import 'venobox/venobox.css';
+
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'aos/dist/aos.css'
-// import '..css/style.css';
+
 import tyson from '../images/bg_3.jpg'
 import logoimg from '../assets/images/site/logo.jpg';
 import p1img from '../assets/images/site/aboutpeople/1.jpg';
