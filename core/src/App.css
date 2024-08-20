@@ -548,17 +548,14 @@ textarea {
   width: 100vw;
   height: 64vh;
   object-fit: cover;
-  z-index:-100;
 }
 
 .hero-block .hero-caption {
   left: 10%;
   right: 10%;
   bottom: 20%;
-  z-index: 200;
+  z-index: 2;
   transform: translateY(0);
-  /* border: 5px solid yellow; */
-
   text-align: center;
   color: #fff; /* Ensure text color contrasts with the background */
   position: absolute; /* Ensures the caption stays within the visible area */
@@ -597,7 +594,7 @@ textarea {
   .hero-block .hero-caption {
     left: 5%; /* Reduce left and right for very small screens */
     right: 5%;
-    bottom: 10%; /* Further raise the aption */
+    bottom: 10%; /* Further raise the caption */
     transform: translateY(0);
   }
 }
@@ -618,21 +615,11 @@ textarea {
   }
 
   .hero-block .hero-caption {
-    position: absolute;
-    font: white;
-    top: 0;
-    left: 0; /* Reduce left and right for very small screens */
-    /* right: 5%; */
-    /* bottom: 10%; Further raise the caption */
+    left: 5%; /* Maintain left and right padding */
+    right: 5%;
+    bottom: 10%; /* Ensure the caption stays within view */
     transform: translateY(0);
     z-index: 3; /* Ensure the caption is above all other elements */
-  }
-  .hero-caption{
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 91919191919;
-    border: 5px solid yellow;
   }
 }
 
@@ -1087,9 +1074,9 @@ textarea {
     padding: 40px 0 10px;
   }
 
-  .hero-block .carousel-caption {
-    display: none;
-  }
+    /* .hero-block .carousel-caption {
+      display: none;
+    } */
 
   .hero-block .carousel-control {
     width: 15%;
