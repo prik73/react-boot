@@ -20,7 +20,7 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 function App() {
   return (
     <Router>
-      <div className='App d-flex flex-column min-vh-100'>
+    <div className='App d-flex flex-column min-vh-100 overflow-hidden'>
         <header id='header'>
           <AppHeader />
         </header>
@@ -50,6 +50,7 @@ function App() {
           avatar="https://your-image-url.com/avatar.jpg" // Optional: Add an avatar
         />
       </div>
+      
     </Router>
   );
 }

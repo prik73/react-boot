@@ -511,9 +511,12 @@ textarea {
     padding: 20px 0;
   }
 
+  #footer .socials ul li {
+    margin: 0 5px;
+  }
+
   #footer .socials a {
     font-size: 1.2rem;
-    margin: 0 5px;
   }
 }
 
@@ -545,14 +548,17 @@ textarea {
   width: 100vw;
   height: 64vh;
   object-fit: cover;
+  z-index:-100;
 }
 
 .hero-block .hero-caption {
   left: 10%;
   right: 10%;
   bottom: 20%;
-  z-index: 2;
+  z-index: 200;
   transform: translateY(0);
+  /* border: 5px solid yellow; */
+
   text-align: center;
   color: #fff; /* Ensure text color contrasts with the background */
   position: absolute; /* Ensures the caption stays within the visible area */
@@ -591,7 +597,7 @@ textarea {
   .hero-block .hero-caption {
     left: 5%; /* Reduce left and right for very small screens */
     right: 5%;
-    bottom: 10%; /* Further raise the caption */
+    bottom: 10%; /* Further raise the aption */
     transform: translateY(0);
   }
 }
@@ -612,11 +618,21 @@ textarea {
   }
 
   .hero-block .hero-caption {
-    left: 5%; /* Maintain left and right padding */
-    right: 5%;
-    bottom: 10%; /* Ensure the caption stays within view */
+    position: absolute;
+    font: white;
+    top: 0;
+    left: 0; /* Reduce left and right for very small screens */
+    /* right: 5%; */
+    /* bottom: 10%; Further raise the caption */
     transform: translateY(0);
     z-index: 3; /* Ensure the caption is above all other elements */
+  }
+  .hero-caption{
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 91919191919;
+    border: 5px solid yellow;
   }
 }
 
