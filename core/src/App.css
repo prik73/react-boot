@@ -1248,13 +1248,18 @@ textarea {
 /* About Section */
 /* About Section */
 #about-section {
-  padding: 170px 0 0px 0;
+  padding: 170px 0;
   background: #f7f7f7;
 
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   
+}
+@media (max-width: 768px) {
+  #about-section {
+    padding: 170px 0 30px 0;
+  }
 }
 
 .about-section .video-box {
@@ -1329,16 +1334,15 @@ textarea {
   }
 }
 
-/*---------------------- about-team section styling -------------*/
+/* about-team section styling */
 #about-team-approach,
 #about-team-team {
   border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0.8, 0, 0.3);
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 .about-team .section-title {
-
   text-align: center;
   margin-bottom: 40px;
 }
