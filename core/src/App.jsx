@@ -8,7 +8,7 @@ import AppHeader from './components/header';
 import AppHero from './components/hero';
 import HomeAbout from './components/about';
 import AppServices from './components/services';
-import AppWorks from './components/work';
+import AppWorks from './pages/Gallery';
 import AppContact from './components/Contact';
 import AppFooter from './components/footer';
 import Gallery from './Gallery';
