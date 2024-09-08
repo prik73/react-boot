@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import './GalleryStyle.css';  // Import the CSS file
+
 import i1 from '../assets/images/site/one.jpg';
 import i2 from '../assets/images/site/two.jpg';
 import i3 from '../assets/images/site/three.jpg';
@@ -68,58 +70,16 @@ export default function Gallery() {
         <div>
             {/* Modal */}
             {datas.img && (
-                <div style={{
-                    marginTop: '100px',
-                    width: '100%',
-                    height: '100vh',
-                    background: 'rgba(2, 2, 2, 0.75)',
-                    position: 'fixed',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    overflow: 'hidden',
-                    top: '0',
-                    left: '0',
-                    zIndex: 1000,
-                    backdropFilter: 'blur(20px)',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255, 255, 255, 0.3)'
-                }}>
-                    <button onClick={closeModal} style={{
-                        position: 'absolute',
-                        top: '60px',
-                        right: '20px',
-                        background: 'transparent',
-                        color: 'white',
-                        border: 'none',
-                        fontSize: '24px',
-                        cursor: 'pointer',
-                        overflow: 'hidden',
-                    }}>X</button>
-                    <button onClick={() => imgAction('prev-img')} style={{
-                        position: 'absolute',
-                        left: '5%',
-                        background: 'transparent',
-                        color: 'white',
-                        border: 'none',
-                        fontSize: '36px',
-                        cursor: 'pointer'
-                    }}>&lt;</button>
-                    <img src={datas.img} style={{ width: 'auto', maxWidth: '90%', maxHeight: '90%' }} alt="Modal content" />
-                    <button onClick={() => imgAction('next-img')} style={{
-                        position: 'absolute',
-                        right: '5%',
-                        background: 'transparent',
-                        color: 'white',
-                        border: 'none',
-                        fontSize: '36px',
-                        cursor: 'pointer'
-                    }}>&gt;</button>
+                <div className="modal">
+                    <button onClick={closeModal} className="modal-close-btn">X</button>
+                    <button onClick={() => imgAction('prev-img')} className="modal-prev-btn">&lt;</button>
+                    <img src={datas.img} alt="Modal content" />
+                    <button onClick={() => imgAction('next-img')} className="modal-next-btn">&gt;</button>
                 </div>
             )}
 
             {/* Gallery */}
-            <div style={{ padding: '145px' }}>
+            <div className="gallery-container">
                 <ResponsiveMasonry
                     columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3 }}
                 >
@@ -128,7 +88,7 @@ export default function Gallery() {
                             <img
                                 key={index}
                                 src={item.imgSrc}
-                                style={{ width: '100%', display: 'block', cursor: 'pointer' }}
+                                className="gallery-image"
                                 alt={`Gallery Image ${index + 1}`}
                                 onClick={() => viewImage(item.imgSrc, index)}
                             />
