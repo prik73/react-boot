@@ -98,7 +98,7 @@ export default function Gallery() {
                     }}>X</button>
                     <button onClick={() => imgAction('prev-img')} style={{
                         position: 'absolute',
-                        left: '350px',
+                        left: '5%',
                         background: 'transparent',
                         color: 'white',
                         border: 'none',
@@ -108,7 +108,7 @@ export default function Gallery() {
                     <img src={datas.img} style={{ width: 'auto', maxWidth: '90%', maxHeight: '90%' }} alt="Modal content" />
                     <button onClick={() => imgAction('next-img')} style={{
                         position: 'absolute',
-                        right: '350px',
+                        right: '5%',
                         background: 'transparent',
                         color: 'white',
                         border: 'none',
@@ -119,11 +119,11 @@ export default function Gallery() {
             )}
 
             {/* Gallery */}
-            <div style={{ padding: '150px' }}>
+            <div style={{ padding: '145px' }}>
                 <ResponsiveMasonry
-                    columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+                    columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3 }}
                 >
-                    <Masonry gutter="20px">
+                    <Masonry gutter="10px">
                         {data.map((item, index) => (
                             <img
                                 key={index}
