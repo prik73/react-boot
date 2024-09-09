@@ -528,7 +528,7 @@ textarea {
 
 /* -----------------------------hero block starts--------------------------- */
 .hero-block {
-  margin: 65px 0 0;
+  margin: 85px 0 0;
   position: relative;
   overflow: hidden;
 }
@@ -546,7 +546,7 @@ textarea {
 
 .hero-block img {
   width: 100vw;
-  height: 64vh;
+  height: 80vh;
   object-fit: cover;
 }
 
@@ -567,7 +567,7 @@ textarea {
 }
 
 .hero-block p {
-  margin: 20px 0 30px;
+  margin: 20px 0 65px;
   font-size: 1rem;
 }
 
