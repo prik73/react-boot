@@ -35,7 +35,7 @@ export default function AppServices() {
         <Container fluid>
             <div className='title-holder'>
                 <h2>what do we do</h2>
-                <div className='subtitle'>impact that we create</div>
+                <div className='subtitle'>Impact that we create</div>
             </div>
             <Row>
                 {
