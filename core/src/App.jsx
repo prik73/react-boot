@@ -15,6 +15,7 @@ import Gallery from './Gallery';
 import About from './pages/About';
 import Donate from './pages/Donate';
 import Contact from './pages/Contact';
+import WatchOurWork from './components/Watchourwork';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 function App() {
@@ -61,6 +62,7 @@ function Home() {
       <AppHero />
       <HomeAbout />
       <AppServices />
+      <WatchOurWork />
       <AppContact />
     </>
   );

@@ -28,7 +28,6 @@ const data = [
         description:"In times of need, our distribution drives aim to provide essential supplies such as food, clothing, educational materials, and hygiene products to marginalized communities. Whether it's disaster relief or everyday support, we strive to ensure that no one is left behind. These drives are an essential part of our mission to spread compassion and support to those in need."
     },
 ]
-
 export default function AppServices() {
   return (
     <section id='services' className='block services-block'> 

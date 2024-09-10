@@ -1437,4 +1437,20 @@ textarea {
   }
 }
 
+.video-container{
+  margin-top: 50px !important;
+  margin-left: 0px !important;
+  margin-right: 0 !important;
+  background:#050b32;
+  position: relative;
+  min-height: 43vh;
+  margin: 220px auto 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+}
+
+
 
