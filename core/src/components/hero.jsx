@@ -12,7 +12,7 @@ const heroData = [
     id: 1,
     image: imageOne,
     title: 'Building a Brighter Future Together',
-    description: 'hello from 1',
+    description: 'Join us in our mission to bring about social change in the world.',
     link: 'https://www.google.com'
   },
   {

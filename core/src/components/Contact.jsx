@@ -11,15 +11,15 @@ export default function AppContact(){
                     <ul>
                         <li>
                             <i className='fas fa-envelope' />
-                            yaha email adress....
+                            smmfoundation123@gmail.com
                         </li>
                         <li>
                             <i  className='fas fa-phone' />
-                            8619320719
+                            tel:+91 8860009203
                         </li>
                         <li>
                             <i className='fas fa-map-marker-alt' />
-                            Gurugram, Haryana ( India )
+                            Mapsko Casa Bella, Sector 82, Gurugram, Haryana, India
                         </li>
                     </ul>
                 </div>

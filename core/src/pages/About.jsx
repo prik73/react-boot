@@ -37,11 +37,9 @@ const About = () => {
             <div className="col-lg-6 d-flex flex-column justify-content-center about-content">
               <div className="section-title">
                 <h2>Who We Are</h2>
-                <p>Our NGO is a club formed by youngsters whose main motto is social service.
-                  In this organisation, everyone lives for one another and everybody lives for a cause.
-                  It’s a non-profit organisation founded in 2012 with an employee margin of 2 to 10 main people.
-                  We are specialised in NGO and teaching. This Non-Governmental Organisation (NGO) was formed by a group of young people who wanted to bring a change in society.
-                  It was started by three people namely Avleen Kaur, Kuwarjeet Singh, and Harmandeep Kaur.</p>
+                <p>At SMM Foundation, we're committed to empowering individuals and communities through education, legal support, and essential resources.
+
+Our mission is to provide a comprehensive range of programs and services that address the needs of those seeking guidance, assistance, and opportunities for growth. From counseling sessions and legal aid to educational workshops and community outreach initiatives, we strive to create a supportive and inclusive environment where everyone can reach their full potential.</p>
               </div>
 
             </div>
@@ -56,10 +54,7 @@ const About = () => {
             <h1><b>OUR APPROACH</b></h1>
             <hr />
             <p className="font-italic">
-              We reach out to children and make them interact with young people from universities and teach them in a friendly way so as to provide them with a family environment for learning, make them understand our culture and hardships they need to overcome in the journey of their life.
-            </p>
-            <p className="font-italic">
-              Our main motives are making children aware of the current scenario in which the world exists and train them to overcome the taboos of society. We also make them aware of the social issues they are in and how to make it a better place for them to survive and grow.
+            Together, we're building brighter futures. Join us in empowering communities through education, resources, and legal aid. Our mission is to create a world where everyone has the opportunity to thrive.
             </p>
             <br />
             <br />
