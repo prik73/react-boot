@@ -30,29 +30,28 @@
     margin-top: 20px;
   }
   
-@media (max-width: 768px) {
-  .donate-us-container {
-    margin: 180px auto 2vh; /* Adjusted for mobile */
-    width: 95%;
-    padding: 15px;
-  }
+  @media (max-width: 768px) {
+    .donate-us-container {
+      margin: 180px auto 2vh;
+      width: 95%;
+      padding: 15px;
+    }
     h2 {
       font-size: 1.5rem;
     }
-  
     h4 {
       font-size: 1.2rem;
+      text-align: center;
     }
-  
     p {
       font-size: 0.9rem;
+      text-align: center;
     }
-  
     .bank-details {
       margin-top: 15px;
+      text-align: center;
     }
-  
     .qr-code {
-      max-width: 120px;
+      max-width: 195px;
     }
   }

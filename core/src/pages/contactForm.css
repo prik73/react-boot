@@ -18,7 +18,7 @@
 }
 
 .address-bg {
-  background-image: url('../images/bg_3.jpg');
+  background-image: url('../assets/images/site/allphotos/13.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -29,7 +29,7 @@
 
 .address-content {
   background: rgba(255, 255, 255, 0.79);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1.5px);
   border-radius: 15px;
   padding: 20px;
   height: auto;

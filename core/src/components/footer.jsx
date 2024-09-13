@@ -24,7 +24,7 @@ export default function AppFooter() {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href='https://www.youtube.com/'>
+                  <a href='https://youtu.be/k_V6dAuwmtg'>
                     <i className='fab fa-youtube fa-fade' />
                   </a>
                 </li>

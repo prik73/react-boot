@@ -528,7 +528,7 @@ textarea {
 
 /* -----------------------------hero block starts--------------------------- */
 .hero-block {
-  margin: 65px 0 0;
+  margin: 85px 0 0;
   position: relative;
   overflow: hidden;
 }
@@ -546,7 +546,7 @@ textarea {
 
 .hero-block img {
   width: 100vw;
-  height: 64vh;
+  height: 80vh;
   object-fit: cover;
 }
 
@@ -567,7 +567,7 @@ textarea {
 }
 
 .hero-block p {
-  margin: 20px 0 30px;
+  margin: 20px 0 65px;
   font-size: 1rem;
 }
 
@@ -1436,3 +1436,21 @@ textarea {
     margin-top: 20px;
   }
 }
+
+.video-container{
+  margin-top: 50px !important;
+  margin-left: 0px !important;
+  margin-right: 0 !important;
+  background:#050b32;
+  position: relative;
+  min-height: 43vh;
+  margin: 220px auto 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+}
+
+
+

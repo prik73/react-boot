@@ -48,10 +48,10 @@ const Contact = () => {
               <div className="address-content">
                 <h2 className="mb-4">Reach Us At</h2>
                 <p><strong>Address:</strong></p>
-                <p>123 Main Street</p>
-                <p>City, State, ZIP</p>
-                <p><strong>Phone:</strong> (123) 456-7890</p>
-                <p><strong>Email:</strong> contact@yourorg.com</p>
+                <p>Mapsko Casa Bella, Sector 82</p>
+                <p>Gurugram, Haryana, 122002</p>
+                <p><strong>Phone:</strong> +91 8860009203</p>
+                <p><strong>Email:</strong> smmfoundation123@gmail.com</p>
                 <p><strong>Hours:</strong> Mon-Fri, 9 AM - 5 PM</p>
               </div>
             </div>
