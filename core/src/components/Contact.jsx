@@ -11,15 +11,15 @@ export default function AppContact(){
                     <ul>
                         <li>
                             <i className='fas fa-envelope' />
-                            smmfoundation123@gmail.com
+                            princy@smmfoundation.org.in
                         </li>
                         <li>
                             <i  className='fas fa-phone' />
-                            tel:+91 8860009203
+                            tel:+91 8860009103
                         </li>
                         <li>
                             <i className='fas fa-map-marker-alt' />
-                            Mapsko Casa Bella, Sector 82, Gurugram, Haryana, India
+                            A1-203, Mapsko Casa Bella, Sector 82, Gurugram, Haryana, India
                         </li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@ import './App.css';
 import './index.css'; 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import logoimg from '../src/assets/images/site/logo.jpg';
 import AppHeader from './components/header';
 import AppHero from './components/hero';
 import HomeAbout from './components/about';
@@ -43,12 +43,12 @@ function App() {
 
         {/* Floating WhatsApp Button */}
         <FloatingWhatsApp
-          phoneNumber="+918619320719"
-          accountName="Priyanshu"
+          phoneNumber="+918860009103"
+          accountName="SMM Foundation"
           allowClickAway
           notification
           notificationSound
-          avatar="https://your-image-url.com/avatar.jpg" // Optional: Add an avatar
+          avatar={logoimg} // Optional: Add an avatar
         />
       </div>
       

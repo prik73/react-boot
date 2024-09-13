@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css';
-
+import AboutGallery from '../components/AboutGallery';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'aos/dist/aos.css'
 
@@ -15,7 +15,9 @@ import p5img from '../assets/images/site/aboutpeople/5.jpg';
 import p6img from '../assets/images/site/aboutpeople/6.jpg';
 import p7img from '../assets/images/site/aboutpeople/7.jpg';
 import p8img from '../assets/images/site/aboutpeople/8.jpg';
-import Aos from 'aos'
+import Aos from 'aos';
+
+
 
 const About = () => {
   useEffect(() => {
@@ -39,7 +41,7 @@ const About = () => {
                 <h2>Who We Are</h2>
                 <p>At SMM Foundation, we're committed to empowering individuals and communities through education, legal support, and essential resources.
 
-Our mission is to provide a comprehensive range of programs and services that address the needs of those seeking guidance, assistance, and opportunities for growth. From counseling sessions and legal aid to educational workshops and community outreach initiatives, we strive to create a supportive and inclusive environment where everyone can reach their full potential.</p>
+                  Our mission is to provide a comprehensive range of programs and services that address the needs of those seeking guidance, assistance, and opportunities for growth. From counseling sessions and legal aid to educational workshops and community outreach initiatives, we strive to create a supportive and inclusive environment where everyone can reach their full potential.</p>
               </div>
 
             </div>
@@ -54,7 +56,7 @@ Our mission is to provide a comprehensive range of programs and services that ad
             <h1><b>OUR APPROACH</b></h1>
             <hr />
             <p className="font-italic">
-            Together, we're building brighter futures. Join us in empowering communities through education, resources, and legal aid. Our mission is to create a world where everyone has the opportunity to thrive.
+              Together, we're building brighter futures. Join us in empowering communities through education, resources, and legal aid. Our mission is to create a world where everyone has the opportunity to thrive.
             </p>
             <br />
             <br />
@@ -75,8 +77,8 @@ Our mission is to provide a comprehensive range of programs and services that ad
           <hr />
 
 
-           {/* Team Member 1 */}
-           <div className="row content align-items-center mb-5">
+          {/* Team Member 1 */}
+          <div className="row content align-items-center mb-5">
             <div className="col-md-5" data-aos="fade-left">
               <img src={p1img} className="img-fluid w-100" alt="princy" />
             </div>
@@ -135,7 +137,7 @@ Our mission is to provide a comprehensive range of programs and services that ad
           <hr />
 
 
-          
+
           {/* Team Member 3 */}
           <div className="row content align-items-center mb-5">
             <div className="col-md-5" data-aos="fade-left">
@@ -162,8 +164,8 @@ Our mission is to provide a comprehensive range of programs and services that ad
           <hr />
 
 
-           {/* Team Member 4 */}
-           <div className="row content align-items-center mb-5">
+          {/* Team Member 4 */}
+          <div className="row content align-items-center mb-5">
             <div className="col-md-5 order-1 order-md-2" data-aos="fade-right">
               <img src={p4img} className="img-fluid w-100" alt="Avleen Kaur" />
             </div>
@@ -280,7 +282,7 @@ Our mission is to provide a comprehensive range of programs and services that ad
             </div>
             <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
               <h2>Ms. Vaishnavi Kaushik</h2>
-              <h4><b>Volunteer</b></h4>
+              <h4><b>Head Volunteer</b></h4>
               <p className="font-italic">
                 Vaishanavi is a self-motivated law student from Gurugram
                 University who is always keen to work for the society. She has
@@ -296,11 +298,20 @@ Our mission is to provide a comprehensive range of programs and services that ad
             </div>
           </div>
           <hr />
-
-
+         
         </div>
       </section>
-
+      <section id="about-team-team" className="about-team">
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h1><b>OUR VOLUNTEERS</b></h1>
+          </div>
+          <hr />
+          <div>
+          <AboutGallery />
+          </div>
+        </div>
+      </section>e
     </div>
   );
 };
