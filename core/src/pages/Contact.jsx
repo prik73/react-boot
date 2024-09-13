@@ -48,7 +48,7 @@ const Contact = () => {
               <div className="address-content">
                 <h2 className="mb-4">Reach Us At</h2>
                 <p><strong>Address:</strong></p>
-                <p>Mapsko Casa Bella, Sector 82</p>
+                <p>A1-203, Mapsko Casa Bella, Sector 82</p>
                 <p>Gurugram, Haryana, 122002</p>
                 <p><strong>Phone:</strong> +91 8860009203</p>
                 <p><strong>Email:</strong> smmfoundation123@gmail.com</p>

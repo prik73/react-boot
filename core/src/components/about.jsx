@@ -28,7 +28,7 @@ The foundation works for the welfare of
 humankind.
 
 The main objective of the foundation is to spread
-legal awareness in the country with special
+legal awareness and education in the country with special
 emphasis on laws related to women, children,
 senior-citizens and specially abled persons.</Col>
             </Row>
