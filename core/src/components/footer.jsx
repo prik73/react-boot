@@ -9,7 +9,7 @@ export default function AppFooter() {
         <Row className="justify-content-center">
           <Col xs={12} sm={10} md={8} lg={6}>
             <div className='copyright'>
-              &copy; 2024 Corporate. All Rights Reserved.
+              &copy; Developed by Priyanshu Baswala and Saarthak Agarwal
             </div>
             <div className='socials d-flex justify-content-center align-items-center'>
               <ul className="list-inline">

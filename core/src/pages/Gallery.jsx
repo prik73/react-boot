@@ -2,26 +2,17 @@ import React, { useState, useEffect } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import i1 from '../assets/images/imgs/img1.jpg'
-import i2 from '../assets/images/imgs/img2.jpg'
 import i3 from '../assets/images/imgs/img3.jpg'
 import i4 from '../assets/images/imgs/img4.jpg'
 import i5 from '../assets/images/imgs/img5.jpg'
 import i6 from '../assets/images/imgs/img6.jpg'
 import i7 from '../assets/images/imgs/img7.jpg'
 import i8 from '../assets/images/imgs/img8.jpg'
-import i9 from '../assets/images/imgs/img9.jpg'
 import i11 from '../assets/images/imgs/img11.jpg'
 import i12 from '../assets/images/imgs/img12.jpg'
-import i13 from '../assets/images/imgs/img13.jpg'
 import i14 from '../assets/images/imgs/img14.jpg'
 import i15 from '../assets/images/imgs/img15.jpg'
 import i16 from '../assets/images/imgs/img16.jpg'
-import i17 from '../assets/images/imgs/img17.jpg'
-import i18 from '../assets/images/imgs/img18.jpg'
-import i19 from '../assets/images/imgs/img19.jpg'
-import i20 from '../assets/images/imgs/img20.jpg'
-import i21 from '../assets/images/imgs/img21.jpg'
-import i22 from '../assets/images/imgs/img22.jpg'
 import i23 from '../assets/images/imgs/img23.jpg'
 import i24 from '../assets/images/imgs/img24.jpg'
 import i25 from '../assets/images/imgs/img25.jpg'
@@ -92,20 +83,11 @@ const data = [
     { id: 6, imgSrc: i6 },
     { id: 7, imgSrc: i7 },
     { id: 8, imgSrc: i8 },
-    { id: 9, imgSrc: i9 },
     { id: 11, imgSrc: i11 },
     { id: 12, imgSrc: i12 },
-    { id: 13, imgSrc: i13 },
     { id: 14, imgSrc: i14 },
     { id: 15, imgSrc: i15 },
     { id: 16, imgSrc: i16 },
-    { id: 17, imgSrc: i17 },
-    { id: 18, imgSrc: i18 },
-    { id: 19, imgSrc: i19 },
-    { id: 20, imgSrc: i20 },
-    { id: 21, imgSrc: i21 },
-    { id: 22, imgSrc: i22 },
-    { id: 2, imgSrc: i2 },
     { id: 3, imgSrc: i3 },
     { id: 4, imgSrc: i4 },
     { id: 24, imgSrc: i24 },
