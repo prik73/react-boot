@@ -3,7 +3,13 @@ import './App.css';
 import './index.css'; 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import logoimg from '../src/assets/images/site/logo.jpg';
+
+
+import { Analytics } from "@vercel/analytics/react"
+
+
 import AppHeader from './components/header';
 import AppHero from './components/hero';
 import HomeAbout from './components/about';
