@@ -64,6 +64,7 @@
 @media screen and (max-width: 768px) {
     .gallery-container {
         padding: 80px;
+         margin-top: 80px;
     }
 
     .modal {
@@ -71,7 +72,7 @@
     }
 
     .modal-close-btn {
-        top: 30px;
+        top: 140px;
         right: 10px;
     }
 
@@ -83,12 +84,18 @@
         max-width: 80%;
         max-height: 80%;
     }
+    .modal-prev-btn {
+        left: 1%;
+    }
+    
+    .modal-next-btn {
+        right: 1%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .gallery-container {
         padding: 50px;
-        margin-top: 80px;
     }
 
     .modal img {
@@ -97,7 +104,7 @@
     }
 
     .modal-close-btn {
-        top: 20px;
+        top: 100px;
         right: 5px;
         font-size: 18px;
     }
