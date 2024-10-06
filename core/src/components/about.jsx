@@ -11,7 +11,7 @@ export default function HomeAppAbout(){
        
           <Container fluid>
             <div className='title-holder'>
-                <h2> About-us </h2>
+                <h2> Our story </h2>
             </div>
             <Row>
              <Col sm={6}>

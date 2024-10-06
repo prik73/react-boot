@@ -1,3 +1,6 @@
+.styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L {
+  color: black !important;
+}
 html {
   box-sizing: border-box;
 }
@@ -143,6 +146,7 @@ ul,
 }
 
 .btn.btn-primary {
+  /* margin-top:100px; */
   background: #0F8BFF;
   border-color: #0F8BFF;
   padding: 13px 35px;
@@ -152,6 +156,7 @@ ul,
   text-transform: uppercase;
   transition: background 0.3s linear, color 0.3s linear;
   -webkit-transition: background 0.3s linear, color 0.3s linear;
+  
 }
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {

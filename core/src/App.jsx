@@ -55,6 +55,7 @@ function App() {
           notification
           notificationSound
           avatar={logoimg} // Optional: Add an avatar
+          styles={{ color: 'black' }}
         />
       </div>
       

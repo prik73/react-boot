@@ -24,7 +24,7 @@ export default function AppHeader() {
             <Nav.Link as={Link} to="/about-us" onClick={closeNavbar}>About Us</Nav.Link>
             <Nav.Link as={Link} to="/gallery" onClick={closeNavbar}>Gallery</Nav.Link>
             <Nav.Link as={Link} to="/contact-us" onClick={closeNavbar}>Contact Us</Nav.Link>
-            <Nav.Link as={Link} to='/donate-us' onClick={closeNavbar}>Donate-us</Nav.Link>
+            <Nav.Link as={Link} to='/donate-us' onClick={closeNavbar}>Contribute to the cause</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
