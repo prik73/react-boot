@@ -311,7 +311,7 @@ const About = () => {
           <AboutGallery />
           </div>
         </div>
-      </section>e
+      </section>
     </div>
   );
 };
