@@ -1,26 +1,30 @@
 import React, { useState, useEffect } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import './AboutGallery.css';
-import i13 from '../assets/images/imgs/img13.jpg'
 import i2 from '../assets/images/imgs/img2.jpg'
-import i9 from '../assets/images/imgs/img9.jpg'
 import i17 from '../assets/images/imgs/img17.jpg'
 import i18 from '../assets/images/imgs/img18.jpg'
 import i19 from '../assets/images/imgs/img19.jpg'
 import i20 from '../assets/images/imgs/img20.jpg'
 import i21 from '../assets/images/imgs/img21.jpg'
 import i22 from '../assets/images/imgs/img22.jpg'
+import i61 from '../assets/images/imgs/img61.jpg'
+import i62 from '../assets/images/imgs/img62.jpg'
+import i63 from '../assets/images/imgs/img63.jpg'
+import i64 from '../assets/images/imgs/img64.jpg'
 
 const data = [
   { id: 1, imgSrc: i2 },
-  { id: 2, imgSrc: i9 },
-  { id: 3, imgSrc: i13 },
-  { id: 4, imgSrc: i17 },
-  { id: 5, imgSrc: i18 },
-  { id: 5, imgSrc: i19 },
-  { id: 6, imgSrc: i20 },
-  { id: 7, imgSrc: i21 },
-  { id: 8, imgSrc: i22 },
+  { id: 9, imgSrc: i61 },
+  { id: 2, imgSrc: i17 },
+  { id: 3, imgSrc: i18 },
+  { id: 5, imgSrc: i63 },
+  { id: 6, imgSrc: i19 },
+  { id: 7, imgSrc: i20 },
+  { id: 8, imgSrc: i64 },
+  { id: 10, imgSrc: i21 },
+  { id: 11, imgSrc: i22 },
+  { id: 4, imgSrc: i62 },
 ];
 
 export default function AboutGallery() {
