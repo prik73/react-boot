@@ -76,10 +76,35 @@ const About = () => {
           </div>
           <hr />
 
+        {/* Team Member 5 */}
+        <div className="row content align-items-center mb-5">
+            <div className="col-md-5" data-aos="fade-left">
+              <img src={p5img} className="img-fluid w-100" alt="princy" />
+            </div>
+            <div className="col-md-7 pt-4" data-aos="fade-right">
+              <h2>Prof. Vageshwari Deswal</h2>
+              <h4><b>Chief Advisor</b></h4>
+              <p className="font-italic">
+                Prof. Vageshwari Deswal, a distinguished professor of
+                Law at the University of Delhi, is a renowned with over
+                20 years of teaching and research experience.
+                Specializing in family law, criminal law, jurisprudence
+                and gender justice , Dr. Deswal’s research
+                contributions, spanning topics such as rape laws, acid
+                violence and judicial discourse have been widely
+                published in esteemed journals. Recognized with
+                multiple awards and honors her expertise extends to
+                supervising research with a keen focus on gender
+                issues, she is a leading voice in shaping legal discourse
+                on women’s right in India.
+              </p>
+            </div>
+          </div>
+          <hr />
 
           {/* Team Member 1 */}
           <div className="row content align-items-center mb-5">
-            <div className="col-md-5" data-aos="fade-left">
+            <div className="col-md-5 order-1 order-md-2" data-aos="fade-left">
               <img src={p1img} className="img-fluid w-100" alt="princy" />
             </div>
             <div className="col-md-7 pt-4" data-aos="fade-right">
@@ -110,7 +135,7 @@ const About = () => {
 
           {/* Team Member 2 */}
           <div className="row content align-items-center mb-5">
-            <div className="col-md-5 order-1 order-md-2" data-aos="fade-right">
+            <div className="col-md-5" data-aos="fade-right">
               <img src={p2img} className="img-fluid w-100" alt="Harman Arora" />
             </div>
             <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
@@ -140,7 +165,7 @@ const About = () => {
 
           {/* Team Member 3 */}
           <div className="row content align-items-center mb-5">
-            <div className="col-md-5" data-aos="fade-left">
+            <div className="col-md-5 order-1 order-md-2" data-aos="fade-left">
               <img src={p3img} className="img-fluid w-100" alt="Yashvi Parwani" />
             </div>
             <div className="col-md-7 pt-5" data-aos="fade-right">
@@ -166,7 +191,7 @@ const About = () => {
 
           {/* Team Member 4 */}
           <div className="row content align-items-center mb-5">
-            <div className="col-md-5 order-1 order-md-2" data-aos="fade-right">
+            <div className="col-md-5" data-aos="fade-right">
               <img src={p4img} className="img-fluid w-100" alt="Avleen Kaur" />
             </div>
             <div className="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-left">
@@ -189,31 +214,7 @@ const About = () => {
           <hr />
 
 
-          {/* Team Member 5 */}
-          <div className="row content align-items-center mb-5">
-            <div className="col-md-5" data-aos="fade-left">
-              <img src={p5img} className="img-fluid w-100" alt="princy" />
-            </div>
-            <div className="col-md-7 pt-4" data-aos="fade-right">
-              <h2>Prof. Vageshwari Deswal</h2>
-              <h4><b>Chief Advisor</b></h4>
-              <p className="font-italic">
-                Prof. Vageshwari Deswal, a distinguished professor of
-                Law at the University of Delhi, is a renowned with over
-                20 years of teaching and research experience.
-                Specializing in family law, criminal law, jurisprudence
-                and gender justice , Dr. Deswal’s research
-                contributions, spanning topics such as rape laws, acid
-                violence and judicial discourse have been widely
-                published in esteemed journals. Recognized with
-                multiple awards and honors her expertise extends to
-                supervising research with a keen focus on gender
-                issues, she is a leading voice in shaping legal discourse
-                on women’s right in India.
-              </p>
-            </div>
-          </div>
-          <hr />
+          
 
 
           <div className="row content">
@@ -304,7 +305,7 @@ const About = () => {
       <section id="about-team-team" className="about-team">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
-            <h1><b>OUR VOLUNTEERS</b></h1>
+            <h1><b>SMM FAMILY</b></h1>
           </div>
           <hr />
           <div>
